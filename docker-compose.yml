@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  timesheet-bot:
+    build: .
+    container_name: timesheet-bot
+    restart: always
+    env_file:
+      - .env
