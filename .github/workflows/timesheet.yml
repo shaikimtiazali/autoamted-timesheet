@@ -2,7 +2,7 @@ name: Send Timesheet
 
 on:
   schedule:
-    - cron: "* * * * *" # every minute
+    # - cron: "* * * * *" # every minute
   workflow_dispatch: # manual trigger
 
 jobs:
